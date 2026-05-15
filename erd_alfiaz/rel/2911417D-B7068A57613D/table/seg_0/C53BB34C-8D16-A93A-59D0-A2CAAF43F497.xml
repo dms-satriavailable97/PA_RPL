@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C53BB34C-8D16-A93A-59D0-A2CAAF43F497" name="pesanan">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>0BF0BBD5-39B2-5795-3D69-12B41A4277F9</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pesanan" id="F8EF18E6-E43A-0B15-BBA3-4FAA35CB0575">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>FCE93B2B-57AF-D541-B954-ED0E26E3D72A</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="C69E0C11-C5D9-6463-F1E8-A34156A9D483">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>A86F4BE4-BC8F-003E-882A-EDD84CBF3EAD</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pesanan" id="F1F1A3E7-E563-FA6D-1C68-EACA6158F16B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>D31EB70D-A462-9EC0-1402-FE1468F22E21</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_pesanan" id="BE56E4E7-90BC-78F1-A5F6-40875A64FCC3">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>952F12A8-BAE3-8ADC-8305-2D7C19812DA4</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="siswa/i_id_siswa" id="72182A47-1A85-AA4C-BBB1-14C17E3BF43A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>22C97492-E387-B0B9-0225-47CBC998B257</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D4B8730-E63A-1EA0-B9F3-A1EF1FB7490C" referredColumn="5E661266-E8BB-12CF-2158-EEE405E56926"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E668D0AF-2C30-0879-D36E-349C8581DF14" name="pesanan_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>C107FC6A-FF54-3516-8439-1780410334F2</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8EF18E6-E43A-0B15-BBA3-4FAA35CB0575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77F414ED-A55D-2986-54EA-172435A2E53D" name="pesanan_siswa/i_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>2581D891-3A24-5C32-DC8A-8F42D9884B34</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72182A47-1A85-AA4C-BBB1-14C17E3BF43A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

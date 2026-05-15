@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1971056B-3FC8-202A-61BB-7D567A45EF0F" name="siswa/i">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:54:49 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_siswa" id="7E611FF5-3416-B187-7D35-52B3B88BF570">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:57:02 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_siswa" id="F4829900-0674-8755-0527-8729FA6F94EB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:57:20 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9A80E79B-0D3C-05FF-DF3D-A3C77DCE3C75">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:57:21 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="8E453B99-4F4E-E70B-3515-0FE83BFACD22">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:57:21 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_hp" id="641E433F-1BE8-7D54-0BD3-99169E424189">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:57:21 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_akun" id="E07730DF-2098-7A84-74BB-1CA375775FD5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:59:37 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D84A78F-59D4-65F1-E7CC-0A40BB6C76F1" name="siswa/i PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-12 18:58:04 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E611FF5-3416-B187-7D35-52B3B88BF570</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

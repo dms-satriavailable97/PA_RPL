@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="memiliki" directorySegmentName="seg_0" id="D7A8B7BA-5DD7-B32B-36CC-0AC72E760EEB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 10:52:01 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<sourcePk>C107FC6A-FF54-3516-8439-1780410334F2</sourcePk>
+<targetPk>2AB75729-FFC4-A2EE-A8C6-F67EB10657D4</targetPk>
+<identifying>false</identifying>
+<nameOnSource>memiliki</nameOnSource>
+<nameOnTarget>dimilki</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BF0BBD5-39B2-5795-3D69-12B41A4277F9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1D26B713-6E25-58AD-2673-C445585E0F2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

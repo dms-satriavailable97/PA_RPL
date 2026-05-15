@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D7069E4-39C1-9522-9DB8-46904759F60C" name="hasil_tryout">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>35EA567A-0204-AFDE-D3D1-61FB03BAF71F</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_hasil" id="9FC88DB9-31CE-534E-486B-F51644F53FF6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>9A2BFDAA-731B-D083-E1F3-B4E3CF6E44D6</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skor" id="53FF0A0D-47B8-92E3-A358-D94F89761645">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>90A0097B-FD69-F4FD-5460-6FB97537BC9A</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_lulus" id="DA02B2F0-9D00-D67D-8B82-01B2B8ED9C24">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>EDF2A2F2-587D-07E7-CCD6-6F8C76CCDB38</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pengerjaan" id="ADD220C4-3162-F2D9-6DF5-39E2BF40B98F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>834D36F4-4028-8EAC-9EF4-B60EED4D1675</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ranking" id="965D28DB-FFCD-4A65-1B81-21B06C766FE5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>85B057A0-06CA-B0CB-E078-543FCCE51D1F</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pembayaran_id_pembayaran" id="0C4417AA-BC1D-61AA-B985-C5513916BD9F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>268F6AB5-DC2C-242F-9F00-752D44B6B555</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="683845A0-F943-DCD0-C37D-FBD3EA7F7DBC" referredColumn="70C9F6B3-397E-1E69-BE08-D05E00C013A2"/>
+</associations>
+</Column>
+<Column name="siswa/i_id_siswa" id="A2A5EE5F-C2F6-B989-D0A2-9B83765C8A0C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>ED13EF6B-7B3B-23EC-D7F1-4CC5551FC3D0</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE16B42A-98DE-FF8D-D86B-5A62411DF198" referredColumn="5E661266-E8BB-12CF-2158-EEE405E56926"/>
+</associations>
+</Column>
+<Column name="data_master_data_master_ID" id="A3FEE055-748E-DD28-2245-34F24FAF561D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E240FA9-AF28-08C0-D124-694594D65923" referredColumn="6ED28C4F-3726-D4E7-1565-CEFE7AF27B0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D09C420A-C6B3-D65C-13D8-A2D728DC3238" name="hasil_tryout_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>6D473D07-1272-62B5-58F4-26D3EE6100A0</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FC88DB9-31CE-534E-486B-F51644F53FF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28CCBD99-E550-24BC-AE08-85F901372AA6" name="hasil_tryout_siswa/i_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>6CA2DA98-5D97-F05D-E677-6AA6B130661A</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A5EE5F-C2F6-B989-D0A2-9B83765C8A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EDB384A-091E-AADC-80CC-8B15DE76E4A3" name="hasil_tryout_data_master_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>B0038A76-EAA1-2993-A30F-3C310113F407</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3FEE055-748E-DD28-2245-34F24FAF561D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB65A083-09BF-AE6C-15D7-D88F79E7362F" name="hasil_tryout_pembayaran_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>29FD4247-A2B0-2193-C317-C1E7F91E75E9</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C4417AA-BC1D-61AA-B985-C5513916BD9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

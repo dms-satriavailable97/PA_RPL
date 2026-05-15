@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F9B4147-04C7-DCAF-EDB2-C6383AD729F2" containerWithKeyObject="BA9DA13D-D462-F811-D12F-8750657C5AC4" localFKIndex="B1A3C900-C791-5EB9-7FC3-58EA095B701F" name="detail_layanan_belajar_data_master_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>F6B1727A-426E-F5FD-918D-820D86D2AF4D</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<referredTableLongName>data_master</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7599221-C274-8B24-963C-3E3F94E24E75</referredTableID>
+<keyObject>8B70E8F4-AD89-16D8-A66E-B5B81291FE83</keyObject>
+<referredKeyID>8B70E8F4-AD89-16D8-A66E-B5B81291FE83</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>data_master_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

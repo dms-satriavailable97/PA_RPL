@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEFCBB62-823C-3DBD-1E37-E5A08104C677" name="detail_pesanan">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:05:43 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detail_pesanan" id="82817A69-1277-0F69-3A98-7CFD0E6705F7">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:05:43 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_saat_beli" id="36411EB7-D888-AAEE-04B7-C6C72C5BA5E1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:05:43 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pesanan" id="B4649E90-BF17-94C9-B34A-9B4BE42E52F2">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:07:43 UTC</createdTime>
+<generatorID>861AAAFC-4AEF-A0FE-C2B2-91A61040CB8D</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<referedAttribute>FCE93B2B-57AF-D541-B954-ED0E26E3D72A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_layanan_belajar" id="3D895B65-8869-BBF6-6E64-0BF4C4DD9A96">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-10 10:53:59 UTC</createdTime>
+<generatorID>AB539803-3085-3322-E15E-0254BCB76357</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<referedAttribute>3CC56257-2DC9-0BCB-1311-BB85ACF7845F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17EFE27A-3C13-4DE7-3A38-5F8E3C666CAE" name="pembayaran PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:05:43 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82817A69-1277-0F69-3A98-7CFD0E6705F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

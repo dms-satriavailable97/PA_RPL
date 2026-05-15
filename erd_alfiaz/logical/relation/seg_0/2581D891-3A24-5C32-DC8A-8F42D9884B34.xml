@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="melakukan" directorySegmentName="seg_0" id="2581D891-3A24-5C32-DC8A-8F42D9884B34">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:18:52 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<sourcePk>4D84A78F-59D4-65F1-E7CC-0A40BB6C76F1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>melakukan</nameOnSource>
+<nameOnTarget>dilakukan</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1971056B-3FC8-202A-61BB-7D567A45EF0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BF0BBD5-39B2-5795-3D69-12B41A4277F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

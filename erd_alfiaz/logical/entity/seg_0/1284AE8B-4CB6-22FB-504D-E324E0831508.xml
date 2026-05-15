@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1284AE8B-4CB6-22FB-504D-E324E0831508" name="detail_layanan_belajar">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 10:41:46 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detail_layanan" id="218A5EC8-BCE0-FA0F-D0B4-4BFC7ED0B961">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 10:42:05 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_layanan_belajar" id="32A5C7BD-8A07-4A67-C396-ED529171BCCE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-10 10:53:59 UTC</createdTime>
+<generatorID>61F01007-6ABE-9FB4-1E6F-AAADA128AA0C</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<referedAttribute>3CC56257-2DC9-0BCB-1311-BB85ACF7845F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2ED0FF8-0E19-9565-A434-474B715227F8" name="detail_layanan_belajar PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 10:45:10 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>218A5EC8-BCE0-FA0F-D0B4-4BFC7ED0B961</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

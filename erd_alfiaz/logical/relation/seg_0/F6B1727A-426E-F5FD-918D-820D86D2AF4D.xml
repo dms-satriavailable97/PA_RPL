@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="milik" directorySegmentName="seg_0" id="F6B1727A-426E-F5FD-918D-820D86D2AF4D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 10:46:12 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>berisi</nameOnSource>
+<nameOnTarget>diisi</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C3A4683-897D-743E-D09C-87FDB9CE279B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1284AE8B-4CB6-22FB-504D-E324E0831508</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

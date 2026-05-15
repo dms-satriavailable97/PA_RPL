@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="isi" directorySegmentName="seg_0" id="AB539803-3085-3322-E15E-0254BCB76357">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-31 11:08:16 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<engineerTo>
+<item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
+</engineerTo>
+<sourcePk>AC9AA3BA-71C8-544F-7DED-C7A9E0D26124</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>diisi</nameOnSource>
+<nameOnTarget>berisi</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BC15E76-F983-5753-249F-8B60A5E54E6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEFCBB62-823C-3DBD-1E37-E5A08104C677</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

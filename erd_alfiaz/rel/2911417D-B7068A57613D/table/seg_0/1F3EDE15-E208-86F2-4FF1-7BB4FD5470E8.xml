@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F3EDE15-E208-86F2-4FF1-7BB4FD5470E8" name="layanan_belajar">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>1BC15E76-F983-5753-249F-8B60A5E54E6F</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_layanan_belajar" id="CA7E5130-914E-7991-2BDE-A7A1BF839415">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>3CC56257-2DC9-0BCB-1311-BB85ACF7845F</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_layanan_belajar" id="6D445AD7-5083-AE55-40A8-E3D8C15B973A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>1AEC319A-CBE6-FCA9-1726-4A058162CCF0</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deskripsi" id="DC34110B-F425-8931-737D-BE681F4D8283">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>56C19432-FFF1-451D-DADC-6BA65DD3B84B</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga" id="09300352-D484-D527-89CC-12480BE1B710">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>C190439B-ED3A-8D8F-16BC-7707656F2578</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipe_layanan_belajar" id="FC6C390A-B857-873B-8C75-CB51543ACD78">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>18364F04-3490-6EE6-D90F-7C85411B5471</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="admin_id_admin" id="BB59EB0B-50E6-180E-5F58-34264BAC3AFF">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>47B28DD4-375A-D586-D46C-6C4C7F9C23E7</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="543B17F2-1BC8-8DDE-F1DC-3596EE8CDDE1" referredColumn="DAFCD6AF-6FFC-E37C-D74A-15826240E156"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96384E5E-F65F-96FD-EABB-F4E316DEF825" name="layanan_belajar_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>AC9AA3BA-71C8-544F-7DED-C7A9E0D26124</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA7E5130-914E-7991-2BDE-A7A1BF839415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB01D8A9-EF5D-5585-8C1C-5FBC9C29D41E" name="layanan_belajar_admin_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-12 04:09:45 UTC</createdTime>
+<generatorID>006AD0F0-EE72-EA34-2E6F-93BC8D5DB80B</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB59EB0B-50E6-180E-5F58-34264BAC3AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
