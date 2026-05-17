@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED8EFF09-1DA2-6350-5C8E-2D52BD5B0214" name="tryout">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>CFCD6531-8A9C-4EB0-95DA-D2DBC4F3CFE0</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tryout" id="13370B2B-A95E-E0A1-0A18-98652FDADBF2">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>3D9B1155-BEFE-62D3-2C2F-FCE7906F2912</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_tryout" id="4DCF14CA-D2DD-3C68-E43F-15264DC66B90">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>48399F8B-2804-97EA-E739-9B6175C81D08</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deskripsi" id="7ED38B32-BF6C-2AEB-B606-66F372B68F11">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>F07876AF-8F59-80B3-0D83-5038EEAAD5B7</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah_soal" id="3EEA12FE-9E95-A243-C986-4CD515789C87">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>63C08955-06F8-9C8D-AF47-3C497763D843</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_master_data_master_ID" id="19E87931-D9EB-A79C-2829-EA157D49C08E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33BAED1A-D66C-92B4-E46A-78D8EE94089A" referredColumn="6ED28C4F-3726-D4E7-1565-CEFE7AF27B0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63A4FCC7-56D1-AFDE-2712-6E050DFDABED" name="tryout_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>260EAA4C-BE05-9B5D-B4BF-BE1ADC9384C4</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13370B2B-A95E-E0A1-0A18-98652FDADBF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E3763A4-F78C-D317-ED98-232CE15D50D2" name="tryout_data_master_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>D1FB6C4F-0210-A45A-BD47-C343E1CA6DED</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19E87931-D9EB-A79C-2829-EA157D49C08E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

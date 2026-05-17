@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="92C2C18B-23CD-2C33-B193-5DAF766C4B7F" containerWithKeyObject="BA9DA13D-D462-F811-D12F-8750657C5AC4" localFKIndex="39D99247-A8F2-5ACB-D5A5-41F0776B4FED" name="detail_layanan_aset_tryout_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>ECC8B987-C063-D513-EC7B-7DE37DB8EEC5</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<referredTableLongName>tryout</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED8EFF09-1DA2-6350-5C8E-2D52BD5B0214</referredTableID>
+<keyObject>63A4FCC7-56D1-AFDE-2712-6E050DFDABED</keyObject>
+<referredKeyID>63A4FCC7-56D1-AFDE-2712-6E050DFDABED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tryout</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

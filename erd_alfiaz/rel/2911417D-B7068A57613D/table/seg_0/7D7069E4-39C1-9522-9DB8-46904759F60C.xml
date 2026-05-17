@@ -109,6 +109,21 @@
 <colAssociation fkAssociation="1E240FA9-AF28-08C0-D124-694594D65923" referredColumn="6ED28C4F-3726-D4E7-1565-CEFE7AF27B0B"/>
 </associations>
 </Column>
+<Column name="tryout_id_tryout" id="2C787C2F-FB41-1952-E479-2B938E33A58A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:09:54 UTC</createdTime>
+<generatorID>B03AA0B5-BC4D-6440-E5BF-B67D2B6BE9C6</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81D079C9-EED1-82D3-D44E-33F8B68CDFCD" referredColumn="13370B2B-A95E-E0A1-0A18-98652FDADBF2"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D09C420A-C6B3-D65C-13D8-A2D728DC3238" name="hasil_tryout_PK">
@@ -154,6 +169,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0C4417AA-BC1D-61AA-B985-C5513916BD9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B6919E7-B0A3-C074-F819-9E2802F515BC" name="hasil_tryout_tryout_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:09:54 UTC</createdTime>
+<generatorID>12ABF848-76B3-845E-BD3C-E18EF95F7011</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C787C2F-FB41-1952-E479-2B938E33A58A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

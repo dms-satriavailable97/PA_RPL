@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="milik" directorySegmentName="seg_0" id="F6B1727A-426E-F5FD-918D-820D86D2AF4D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="ECC8B987-C063-D513-EC7B-7DE37DB8EEC5">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-03-31 10:46:12 UTC</createdTime>
+<createdTime>2026-05-17 12:59:04 UTC</createdTime>
 <ownerDesignName>erd_alfiaz</ownerDesignName>
 <engineerTo>
 <item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
 </engineerTo>
+<sourcePk>260EAA4C-BE05-9B5D-B4BF-BE1ADC9384C4</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>berisi</nameOnSource>
-<nameOnTarget>diisi</nameOnTarget>
-<optionalSource>false</optionalSource>
+<nameOnSource>mempunyai</nameOnSource>
+<nameOnTarget>dipunyai</nameOnTarget>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>7C3A4683-897D-743E-D09C-87FDB9CE279B</sourceEntity>
+<sourceEntity>CFCD6531-8A9C-4EB0-95DA-D2DBC4F3CFE0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>1284AE8B-4CB6-22FB-504D-E324E0831508</targetEntity>
 <transferable>true</transferable>

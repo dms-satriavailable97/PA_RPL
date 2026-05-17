@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F9797BE-1A84-DFC6-66EC-0362350D18E3" name="video">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>160C1BE1-8BC6-524A-3D8B-B2BDA387C9D1</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_video" id="FFD0CDEE-2689-EC8A-68FF-965AE0898317">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>FB66ABC3-4454-F29E-50C1-93FA596792C3</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="judul_video" id="EB4497E6-70EC-2769-75B9-FFC3DEB07B8E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>F44E046A-27E8-47FA-CBAF-23D696314DF9</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deskripsi" id="2990BE0A-C9EE-E3BD-B9D9-4C1881E35435">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>94B591FE-4953-F00F-6FF9-0EA597A3F12A</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_master_data_master_ID" id="BC2C34EE-0A1B-783D-8139-3C37D3A60179">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="096D26ED-8524-DB75-F073-64C8CF0EEB59" referredColumn="6ED28C4F-3726-D4E7-1565-CEFE7AF27B0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72FFA6AC-8199-4214-EEFF-1F2803B9ABFB" name="video_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>D8D39A7D-6693-4C69-9B29-A4905BA10E26</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD0CDEE-2689-EC8A-68FF-965AE0898317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B96EF320-E473-D644-8772-2393EE7F6247" name="video_data_master_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>3DCBB806-9A8B-45F7-B96A-EF5A87116537</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC2C34EE-0A1B-783D-8139-3C37D3A60179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

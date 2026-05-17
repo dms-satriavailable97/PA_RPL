@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="498A62D1-C756-E2A6-169E-A4ABBDA6858C" containerWithKeyObject="BA9DA13D-D462-F811-D12F-8750657C5AC4" localFKIndex="5F0B7C33-A50F-1513-E2C0-F872E618631D" name="detail_layanan_aset_video_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>91912086-59D0-C00B-3FDE-8E16911FE627</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<referredTableLongName>video</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F9797BE-1A84-DFC6-66EC-0362350D18E3</referredTableID>
+<keyObject>72FFA6AC-8199-4214-EEFF-1F2803B9ABFB</keyObject>
+<referredKeyID>72FFA6AC-8199-4214-EEFF-1F2803B9ABFB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_video</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

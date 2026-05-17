@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="validasi" directorySegmentName="seg_0" id="29FD4247-A2B0-2193-C317-C1E7F91E75E9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="12ABF848-76B3-845E-BD3C-E18EF95F7011">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-03-31 11:00:47 UTC</createdTime>
+<createdTime>2026-05-17 13:09:30 UTC</createdTime>
 <ownerDesignName>erd_alfiaz</ownerDesignName>
 <engineerTo>
 <item key="2911417D-C36C-C68C-6DEC-B7068A57613D" value="true"/>
 </engineerTo>
-<sourcePk>2AB75729-FFC4-A2EE-A8C6-F67EB10657D4</sourcePk>
+<sourcePk>260EAA4C-BE05-9B5D-B4BF-BE1ADC9384C4</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>memvalidasi</nameOnSource>
-<nameOnTarget>divalidasi</nameOnTarget>
+<nameOnSource>memiliki</nameOnSource>
+<nameOnTarget>dimiliki</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>1D26B713-6E25-58AD-2673-C445585E0F2D</sourceEntity>
+<sourceEntity>CFCD6531-8A9C-4EB0-95DA-D2DBC4F3CFE0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>35EA567A-0204-AFDE-D3D1-61FB03BAF71F</targetEntity>
 <transferable>true</transferable>

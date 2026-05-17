@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA9DA13D-D462-F811-D12F-8750657C5AC4" name="detail_layanan_belajar">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA9DA13D-D462-F811-D12F-8750657C5AC4" name="detail_layanan_aset">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-12 04:09:45 UTC</createdTime>
 <generatorID>1284AE8B-4CB6-22FB-504D-E324E0831508</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_detail_layanan" id="DE750A8F-580E-1120-B692-7E3D01F004CD">
+<Column name="id_detail_layanan_aset" id="DE750A8F-580E-1120-B692-7E3D01F004CD">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-12 04:09:45 UTC</createdTime>
 <generatorID>218A5EC8-BCE0-FA0F-D0B4-4BFC7ED0B961</generatorID>
@@ -48,6 +48,37 @@
 <colAssociation fkAssociation="7F9B4147-04C7-DCAF-EDB2-C6383AD729F2" referredColumn="6ED28C4F-3726-D4E7-1565-CEFE7AF27B0B"/>
 </associations>
 </Column>
+<Column name="video_id_video" id="F698B8DD-9E08-C07D-73BC-A418F3760E26">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>5B250C78-75FE-7ABB-728A-B27B9BB928A2</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="498A62D1-C756-E2A6-169E-A4ABBDA6858C" referredColumn="FFD0CDEE-2689-EC8A-68FF-965AE0898317"/>
+</associations>
+</Column>
+<Column name="tryout_id_tryout" id="2D9CE020-6E42-1E0E-AA05-31DB9E1B4C78">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>D03A2B82-ED58-210C-9F37-D7F83641A90A</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92C2C18B-23CD-2C33-B193-5DAF766C4B7F" referredColumn="13370B2B-A95E-E0A1-0A18-98652FDADBF2"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="90592A40-12ED-CE33-3CC8-04CB001C9B53" name="detail_layanan_belajar_PK">
@@ -73,7 +104,7 @@
 <colUsage columnID="A5478019-CAD0-0D4B-7B7F-CA191E174DD5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="386D1770-533A-A6FD-5458-0D7120F376A3" name="detail_layanan_belajar_layanan_belajar_FK">
+<ind_PK_UK id="386D1770-533A-A6FD-5458-0D7120F376A3" name="detail_layanan_aset_layanan_belajar_FK">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-12 04:09:45 UTC</createdTime>
 <generatorID>61F01007-6ABE-9FB4-1E6F-AAADA128AA0C</generatorID>
@@ -82,6 +113,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D8E1BFD7-3274-790A-E75A-99AE2092660F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F0B7C33-A50F-1513-E2C0-F872E618631D" name="detail_layanan_aset_video_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>91912086-59D0-C00B-3FDE-8E16911FE627</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F698B8DD-9E08-C07D-73BC-A418F3760E26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39D99247-A8F2-5ACB-D5A5-41F0776B4FED" name="detail_layanan_aset_tryout_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-17 13:02:22 UTC</createdTime>
+<generatorID>ECC8B987-C063-D513-EC7B-7DE37DB8EEC5</generatorID>
+<ownerDesignName>erd_alfiaz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D9CE020-6E42-1E0E-AA05-31DB9E1B4C78"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
